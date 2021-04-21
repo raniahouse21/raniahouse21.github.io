@@ -2,10 +2,7 @@
 
 #### Purpose
 
-TBD 
-- - -
-###### Mockup / Wireframe
-TBD
+Integrate the devices from other groups in out capstone course. Provide a UI to display the information from devices and interact with them via command push buttons.  
 - - - 
 ###### Prerequisites
 Have NodeJS and any relevant development tools (like VSCode) already installed.
