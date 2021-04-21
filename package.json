@@ -1,46 +1,37 @@
 {
-  "name": "raniahouse21",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
-  },
+  "name": "material-start",
   "private": true,
-  "dependencies": {
-    "@angular/animations": "~11.2.4",
-    "@angular/common": "~11.2.4",
-    "@angular/compiler": "~11.2.4",
-    "@angular/core": "~11.2.4",
-    "@angular/forms": "~11.2.4",
-    "@angular/platform-browser": "~11.2.4",
-    "@angular/platform-browser-dynamic": "~11.2.4",
-    "@angular/router": "~11.2.4",
-    "rxjs": "~6.6.0",
-    "tslib": "^2.0.0",
-    "zone.js": "~0.11.3"
+  "version": "0.0.4",
+  "description": "A ES6 Tutorial project for AngularJS Material Start",
+  "repository": "https://github.com/angular/material-start",
+  "license": "MIT",
+  "jspm": {
+    "directories": {
+      "baseURL": "app",
+      "lib": "app/src"
+    },
+    "dependencies": {
+      "angular": "github:angular/bower-angular@1.8.2",
+      "angular-animate": "github:angular/bower-angular-animate@1.8.2",
+      "angular-aria": "github:angular/bower-angular-aria@1.8.2",
+      "angular-material": "github:angular/bower-material@master",
+      "angular-messages": "github:angular/bower-angular-messages@1.8.2",
+      "css": "github:systemjs/plugin-css@^0.1.20",
+      "json": "github:systemjs/plugin-json@^0.1.0",
+      "text": "github:systemjs/plugin-text@^0.0.4"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.93",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.93"
+    }
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1102.3",
-    "@angular/cli": "~11.2.3",
-    "@angular/compiler-cli": "~11.2.4",
-    "@types/jasmine": "~3.6.0",
-    "@types/node": "^12.11.1",
-    "angular-cli-ghpages": "^1.0.0-rc.1",
-    "codelyzer": "^6.0.0",
-    "jasmine-core": "~3.6.0",
-    "jasmine-spec-reporter": "~5.0.0",
-    "karma": "~6.1.0",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage": "~2.0.3",
-    "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "^1.5.0",
-    "protractor": "~7.0.0",
-    "ts-node": "~8.3.0",
-    "tslint": "~6.1.0",
-    "typescript": "~4.1.5"
+    "jspm": "^0.16.55",
+    "live-server": "^1.2.1"
+  },
+  "scripts": {
+    "postinstall": "jspm install",
+    "serve": "live-server ./app",
+    "start": "npm run serve"
   }
 }
