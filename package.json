@@ -1,10 +1,9 @@
 {
-  "name": "material-start",
+  "name": "raniahouse21",
   "private": true,
-  "version": "0.0.4",
-  "description": "A ES6 Tutorial project for AngularJS Material Start",
-  "repository": "https://github.com/angular/material-start",
-  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Senior Captstone Project Spring 2021",
+  "homepage": "http://raniahouse21.github.io",
   "jspm": {
     "directories": {
       "baseURL": "app",
