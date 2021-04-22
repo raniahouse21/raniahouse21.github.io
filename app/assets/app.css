@@ -159,3 +159,14 @@ span.name {
 
 .dialogdemoBasicUsage .dialog-demo-prerendered md-checkbox {
   margin-bottom: 0; }
+
+  /* Override default theme */
+
+  .md-toolbar-tools {
+    background-color: rgb(115, 124, 139) !important;
+  }
+
+
+  .md-primary {
+    background-color: rgb(115, 124, 139) !important;
+  }

@@ -9,32 +9,57 @@
 function UsersDataService($q) {
   var users = [
     {
-      name: 'Pill Dispenser',
+      name: 'General Commands',
+      avatar: 'svg-2',
+      content: "Avaliable commands RANIA CONTROL. These are multi device commands.",
+      buttons: [{
+        buttonTitle: "1",
+        alertTitle: "1 title",
+        alertDescription: "2 description"
+      },
+      {
+        buttonTitle: "2 title",
+        alertTitle: "2 title",
+        alertDescription: "2 description"
+      }],
+    },
+    {
+      name: 'Medicine Dispenser',
+      avatar: 'svg-1',
+      content: "Avaliable commands for this device",
+      buttons: [{
+        buttonTitle: "1",
+        alertTitle: "1 title",
+        alertDescription: "2 description"
+      },
+      {
+        buttonTitle: "2 title",
+        alertTitle: "2 title",
+        alertDescription: "2 description"
+      }],
+    },
+    {
+      name: 'Home Security',
       avatar: 'svg-1',
       content: "Avaliable commands for this device"
     },
     {
-      name: 'Fall Detection Watch',
+      name: 'Robot Companion ',
       avatar: 'svg-1',
       content: "Avaliable commands for this device"
     },
     {
-      name: 'Smart Toaster',
+      name: 'Memory Games',
       avatar: 'svg-1',
       content: "Avaliable commands for this device"
     },
     {
-      name: 'Remote Family Visits',
+      name: 'Thing Finder',
       avatar: 'svg-1',
       content: "Avaliable commands for this device"
     },
     {
-      name: 'Device 5',
-      avatar: 'svg-1',
-      content: "Avaliable commands for this device"
-    },
-    {
-      name: 'Device 6',
+      name: 'Smart Cane',
       avatar: 'svg-1',
       content: "Avaliable commands for this device"
     }

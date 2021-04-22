@@ -4,10 +4,12 @@ class UserDetailsController  {
    * Constructor
    *
    * @param $mdBottomSheet
+   * @param $mdDialog
    * @param $log
    */
-  constructor($mdBottomSheet, $log) {
+  constructor($mdBottomSheet, $mdDialog, $log) {
     this.$mdBottomSheet = $mdBottomSheet;
+    this.$mdDialog = $mdDialog;
     this.$log = $log;
   }
 
@@ -31,7 +33,7 @@ class UserDetailsController  {
     /**
      * Bottom Sheet controller for the Avatar Actions
      */
-    function UserSheetController( $mdBottomSheet ) {
+    function UserSheetController( $mdBottomSheet ) { 
       this.user = user;
       this.items = [
         { name: '911'       , icon: 'phone'       , icon_url: 'assets/svg/phone.svg'},
@@ -45,6 +47,22 @@ class UserDetailsController  {
     }
   }
 
-}
-export default UserDetailsController;
 
+  showAlert () {
+    var user = this.selected;
+    var $mdDialog = this.$mdDialog; 
+
+    $mdDialog.show(
+      $mdDialog.alert()
+        .parent(angular.element(document.querySelector('#popupContainer')))
+        .clickOutsideToClose(true)
+        .title('This is an alert title')
+        .textContent('You can specify some description text in here.')
+        .ariaLabel('Alert Dialog Demo')
+        .ok('Got it!')
+        .targetEvent()
+    );
+  }
+}
+
+export default UserDetailsController;

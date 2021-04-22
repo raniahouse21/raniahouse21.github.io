@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"
+
      xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
     <svg viewBox="0 0 128 128" height="100%" width="100%" pointer-events="none" display="block" id="svg-1" >
-        <path fill="#1954A9" d="M0 0h128v128H0z"/>
-    </svg>
-    
+        <path fill="#4A8BEA" d="M0 0h128v128H0z"/>
+        
 </svg>
+
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+    <svg viewBox="0 0 128 128" height="100%" width="100%" pointer-events="none" display="block" id="svg-2" >
+        <path fill="#E4CE54" d="M0 0h128v128H0z"/>
+</svg>
+
+        
