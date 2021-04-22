@@ -8,9 +8,7 @@
 
 <!-- ng-repeat is an angular command to repeat the button in a loop. 
      It will be repeated for each button in UsersDataService.js. -->
-<md-button class="md-primary md-raised" ng-click="$ctrl.showAlert($event)" ng-repeat="x in $ctrl.selected.buttons"> 
-  
-  {{x.buttonTitle}} button
-  </md-button>
-
- 
+     <span ng-repeat='button in $ctrl.selected.buttons'>
+      <md-button class="md-primary md-raised" ng-click="$ctrl.showAlert(button)">  {{button.buttonTitle}} button
+      </md-button >
+    </span>

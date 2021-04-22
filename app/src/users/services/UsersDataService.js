@@ -13,15 +13,15 @@ function UsersDataService($q) {
       avatar: 'svg-2',
       content: "Avaliable commands RANIA CONTROL. These are multi device commands.",
       buttons: [{
-        buttonTitle: "1",
-        alertTitle: "1 title",
-        alertDescription: "2 description"
+        buttonTitle: "Say hi",
+        alertTitle: "Alexa says hi",
+        alertDescription: "Don't be shy! idk"
       },
       {
         buttonTitle: "2 title",
         alertTitle: "2 title",
         alertDescription: "2 description"
-      }],
+      },],
     },
     {
       name: 'Medicine Dispenser',
@@ -30,11 +30,6 @@ function UsersDataService($q) {
       buttons: [{
         buttonTitle: "1",
         alertTitle: "1 title",
-        alertDescription: "2 description"
-      },
-      {
-        buttonTitle: "2 title",
-        alertTitle: "2 title",
         alertDescription: "2 description"
       }],
     },
