@@ -166,7 +166,17 @@ span.name {
     background-color: rgb(115, 124, 139) !important;
   }
 
-
   .md-primary {
-    background-color: rgb(115, 124, 139) !important;
+    background-color: rgb(167, 171, 177) !important;
+
+  }
+
+/*  this is the color of the top toolbar*/
+.md-fab{
+  background-color: rgb(47, 100, 179) !important;
+}
+
+
+  .md-fab-bottom-right{
+    background-color: rgb(167, 171, 177) !important;
   }

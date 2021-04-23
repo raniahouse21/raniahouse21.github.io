@@ -11,16 +11,16 @@ function UsersDataService($q) {
     {
       name: 'General Commands',
       avatar: 'svg-2',
-      content: "Avaliable commands RANIA CONTROL. These are multi device commands.",
+      content: "General commands to interact with RANIA.",
       buttons: [{
-        buttonTitle: "Say hi",
-        alertTitle: "Alexa says hi",
-        alertDescription: "Don't be shy! idk"
+        buttonTitle: "Hello RANIA",
+        alertTitle: "Hello!",
+        alertDescription: "I am RANIA. Your personal assistant to interact with all your smart devices."
       },
       {
-        buttonTitle: "2 title",
-        alertTitle: "2 title",
-        alertDescription: "2 description"
+        buttonTitle: "Briefly Leaving Home",
+        alertTitle: "Leaving",
+        alertDescription: "Okay. Leaving home status activated."
       },],
     },
     {
@@ -28,35 +28,73 @@ function UsersDataService($q) {
       avatar: 'svg-1',
       content: "Avaliable commands for this device",
       buttons: [{
-        buttonTitle: "1",
-        alertTitle: "1 title",
-        alertDescription: "2 description"
+        buttonTitle: "Have I taken my medicine",
+        alertTitle: "Yes.",
+        alertDescription: "Your <medicine name> was taken at <time>"
       }],
     },
     {
       name: 'Home Security',
       avatar: 'svg-1',
-      content: "Avaliable commands for this device"
+      content: "Avaliable commands for this device",
+      buttons: [{
+        buttonTitle: "Lock Doors",
+        alertTitle: "Okay!",
+        alertDescription: "Your doors have been locked."
+      },
+      {
+        buttonTitle: "Unlock Doors",
+        alertTitle: "Okay!",
+        alertDescription: "Your doors hace been unlocked."
+      },],
+    
     },
     {
       name: 'Robot Companion ',
       avatar: 'svg-1',
-      content: "Avaliable commands for this device"
+      content: "Avaliable commands for this device",
+      buttons: [{
+        buttonTitle: "Locate Robot Companion",
+        alertTitle: "",
+        alertDescription: "Your robot companion is <> in your home."
+      },
+      {
+        buttonTitle: "Summon Robot Companion",
+        alertTitle: "",
+        alertDescription: "Your robot companion is on their way to you."
+      },],
+    
     },
     {
       name: 'Memory Games',
       avatar: 'svg-1',
-      content: "Avaliable commands for this device"
+      content: "Avaliable commands for this device",
+      buttons: [{
+        buttonTitle: "Launch Memory Game <>",
+        alertTitle: "Launching Game.",
+        alertDescription: "<>."
+      },],
     },
+  
     {
       name: 'Thing Finder',
       avatar: 'svg-1',
-      content: "Avaliable commands for this device"
+      content: "Avaliable commands for this device",
+      buttons: [{
+        buttonTitle: "Find thing finder",
+        alertTitle: "",
+        alertDescription: "The thing finder is <> in your home."
+      },],
     },
     {
-      name: 'Smart Cane',
+      name: 'Smart Pantry',
       avatar: 'svg-1',
-      content: "Avaliable commands for this device"
+      content: "Avaliable commands for this device",
+      buttons: [{
+        buttonTitle: "What's in my pantry.",
+        alertTitle: "",
+        alertDescription: "Contents of pantry: <>, <>, etc."
+      },],
     }
   ];
 
