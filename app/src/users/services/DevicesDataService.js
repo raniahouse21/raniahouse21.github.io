@@ -9,25 +9,53 @@
  function DevicesDataService($q) {
     var devices = [
       {
-        timestamp: "12",
-        devicename: "pill",
-        patientname: "Bob",
-        priority: "high",
-        message: "hi",
+        timestamp: "04-27-2021 12:01 AM",
+        devicename: "Pill Dispenser",
+        patientname: "John Doe",
+        priority: "Low",
+        message: "Medicine was taken. ",
     },
     {
-        timestamp: "11",
-        devicename: "pantry",
-        patientname: "",
-        priority: "",
-        message: "",
+        timestamp: " 04-27-202111:03 AM",
+        devicename: "Smart Pantry",
+        patientname: "John Doe",
+        priority: "High",
+        message: "Flour is expired as of today April 27 2021.",
     },
     {
-        timestamp: "",
-        devicename: "smart",
-        patientname: "",
-        priority: "",
-        message: "",
+        timestamp: "04-27-2021 04:43 PM",
+        devicename: "Medicine Dispenser",
+        patientname: "John Doe",
+        priority: "Low",
+        message: "Medicine needs refilled; 1 does remaining.",
+    },
+    {
+        timestamp: "04-27-2021 03:53 PM",
+        devicename: "Medicine Dispenser",
+        patientname: "John Doe",
+        priority: "Low",
+        message: "Medicine needs refilled; 1 does remaining.",
+    },
+    {
+        timestamp: "04-27-2021 11:29 AM",
+        devicename: "Medicine Dispenser",
+        patientname: "John Doe",
+        priority: "Low",
+        message: "Medicine needs refilled; 1 does remaining.",
+    },
+    {
+        timestamp: "04-27-2021 05:37 AM",
+        devicename: "Medicine Dispenser",
+        patientname: "John Doe",
+        priority: "Low",
+        message: "Medicine needs refilled; 1 does remaining.",
+    },
+    {
+        timestamp: "04-27-2021 12:01 PM",
+        devicename: "Medicine Dispenser",
+        patientname: "John Doe",
+        priority: "Low",
+        message: "Time to take medicine.",
     }];
   
     // Promise-based API

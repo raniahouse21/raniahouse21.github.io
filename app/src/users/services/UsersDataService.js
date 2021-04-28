@@ -72,17 +72,6 @@ function UsersDataService($q) {
     
     },
     {
-      name: 'Memory Games',
-      avatar: 'svg-1',
-      content: "Avaliable commands for this device",
-      buttons: [{
-        buttonTitle: "Launch Memory Game <>",
-        alertTitle: "Launching Game.",
-        alertDescription: "<>."
-      },],
-    },
-  
-    {
       name: 'Thing Finder',
       avatar: 'svg-1',
       content: "Avaliable commands for this device",

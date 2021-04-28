@@ -20,12 +20,14 @@
                aria-label="Show User List">
       <md-icon md-svg-icon="menu"></md-icon>
     </md-button>
+    
     <h1>COMMAND HUB</h1>
 
   </md-toolbar>
 
   <!-- Container #2 -->
   <div flex layout="row">
+    
 
     <!-- Container #3 -->
     <md-sidenav class="md-whiteframe-4dp" md-is-locked-open="$mdMedia('gt-sm')"
@@ -37,6 +39,7 @@
           on-selected="app.selectUser(user)">
       </users-list>
     </md-sidenav>
+    
 
     <!-- Container #4 -->
     <md-content flex id="content">
@@ -48,14 +51,21 @@
       
       <table class="table-style" ng-show="app.selected.table">
         <tr>
-          <th>Name</th>
-          <th>etc</th> 
-          <th>etc</th>
+          <th>Time Stamp</th>
+          <th>Priority</th> 
+          <th>Device Name</th>
+          <th>Patient Name</th>
+          <th>Message</th>
+
         </tr>
         <tr ng-repeat='device in app.devices'>
+          <td>{{device.timestamp}} </td>
+          <td>{{device.priority}} </td> 
           <td>{{device.devicename}} </td>
-          <td>{{device.devicename}} </td> 
-          <td>{{device.devicename}} </td>
+          <td>{{device.patientname}} </td>
+          <td>{{device.message}} </td>
+
+
         </tr>
       </table>
 
@@ -71,5 +81,9 @@
         .catch( console.error.bind(console) ); // make sure any errors print to console
   </script>
 
+
+
 </body>
+
+
 </html>
