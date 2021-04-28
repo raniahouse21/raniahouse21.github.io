@@ -23,11 +23,10 @@ html, body {
 }
 
 md-toolbar h1 {
-  margin: auto;
-  line-height: 1.45;
+  line-height: 20.45;
+  
 
 }
-
 
 
 /* Sidenav area */
@@ -110,7 +109,10 @@ md-button.menuBtn > md-icon {
 md-toolbar h1 {
   font-size: 1.250em;
   font-weight: 400;
+  text-align:center
+
 }
+
 
 .avatar {
   position: relative;
@@ -164,6 +166,8 @@ span.name {
 
   .md-toolbar-tools {
     background-color: rgb(115, 124, 139) !important;
+    justify-content: center;
+
   }
 
   .md-primary {
@@ -180,3 +184,29 @@ span.name {
   .md-fab-bottom-right{
     background-color: rgb(167, 171, 177) !important;
   }
+
+
+/* custom table style */
+
+.table-style {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-style td, .table-style th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-style tr:nth-child(even){background-color: #f2f2f2;}
+
+.table-style tr:hover {background-color: #ddd;}
+
+.table-style th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}

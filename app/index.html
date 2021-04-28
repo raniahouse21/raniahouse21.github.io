@@ -20,9 +20,7 @@
                aria-label="Show User List">
       <md-icon md-svg-icon="menu"></md-icon>
     </md-button>
-    <h1>COMMAND HUB</h1> 
-
-
+    <h1>COMMAND HUB</h1>
 
   </md-toolbar>
 
@@ -47,7 +45,20 @@
       <user-details
           selected="app.selected" >
       </user-details>
-     
+      
+      <table class="table-style" ng-show="app.selected.table">
+        <tr>
+          <th>Name</th>
+          <th>etc</th> 
+          <th>etc</th>
+        </tr>
+        <tr ng-repeat='device in app.devices'>
+          <td>{{device.devicename}} </td>
+          <td>{{device.devicename}} </td> 
+          <td>{{device.devicename}} </td>
+        </tr>
+      </table>
+
     </md-content>
 
   </div>

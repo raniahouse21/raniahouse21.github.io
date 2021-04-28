@@ -7,8 +7,9 @@ import 'angular-material';
 
 import AppController from 'src/AppController';
 import Users from 'src/users/Users';
+import Devices from 'src/users/Devices';
 
-export default angular.module( 'starter-app', [ 'ngMaterial', Users.name ] )
+export default angular.module( 'starter-app', [ 'ngMaterial', Users.name, Devices.name ] )
   .config(($mdIconProvider, $mdThemingProvider) => {
     // Register the user `avatar` icons
     $mdIconProvider

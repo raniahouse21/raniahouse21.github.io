@@ -17,4 +17,12 @@
         <path fill="#E9D97D" d="M0 0h128v128H0z"/>
 </svg>
 
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+    <svg viewBox="0 0 128 128" height="100%" width="100%" pointer-events="none" display="block" id="svg-3" >
+        <path fill="#E9D97D" d="M0 0h128v128H0z"/>
+</svg>
+
+
         

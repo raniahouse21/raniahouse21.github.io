@@ -9,6 +9,12 @@
 function UsersDataService($q) {
   var users = [
     {
+      name: 'Device   Messages',
+      avatar: 'svg-2',
+      content: "List of the messages sent from connected devices",
+      table: true,
+    },
+    {
       name: 'General Commands',
       avatar: 'svg-2',
       content: "General commands to interact with RANIA.",
@@ -30,7 +36,7 @@ function UsersDataService($q) {
       buttons: [{
         buttonTitle: "Have I taken my medicine",
         alertTitle: "Yes.",
-        alertDescription: "Your <medicine name> was taken at <time>"
+        alertDescription: "Your drugname was taken at timestamp"
       }],
     },
     {
@@ -56,7 +62,7 @@ function UsersDataService($q) {
       buttons: [{
         buttonTitle: "Locate Robot Companion",
         alertTitle: "",
-        alertDescription: "Your robot companion is <> in your home."
+        alertDescription: "Your robot companion is <location> in your home."
       },
       {
         buttonTitle: "Summon Robot Companion",

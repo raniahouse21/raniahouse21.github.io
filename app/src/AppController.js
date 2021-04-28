@@ -1,16 +1,19 @@
 /**
  * Main App Controller for the AngularJS Material Starter App
  * @param UsersDataService
+ * @param DevicesDataService
+
  * @param $mdSidenav
  * @constructor
  */
-function AppController(UsersDataService, $mdSidenav) {
+function AppController(UsersDataService, DevicesDataService, $mdSidenav) {
   var self = this;
 
   self.selected     = null;
   self.users        = [ ];
   self.selectUser   = selectUser;
   self.toggleList   = toggleUsersList;
+  self.devices = [ ];
 
   // Load all registered users
 
@@ -20,6 +23,13 @@ function AppController(UsersDataService, $mdSidenav) {
           self.users    = [].concat(users);
           self.selected = users[0];
         });
+
+
+  DevicesDataService
+      .loadAllDevices()
+      .then( function( devices ) {
+        self.devices    = [].concat(devices);
+      });
 
   // *********************************
   // Internal methods
@@ -45,4 +55,6 @@ function AppController(UsersDataService, $mdSidenav) {
 
 
 
-export default [ 'UsersDataService', '$mdSidenav', AppController ];
+
+export default [ 'UsersDataService', 'DevicesDataService',  '$mdSidenav', AppController ];
+
