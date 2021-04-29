@@ -17,7 +17,7 @@ function UsersDataService($q) {
     {
       name: 'General Commands',
       avatar: 'svg-2',
-      content: "General commands to interact with RANIA.",
+      content: "Hey ALEXA, ask RANIA...",
       buttons: [{
         buttonTitle: "Hello RANIA",
         alertTitle: "Hello!",
@@ -32,7 +32,7 @@ function UsersDataService($q) {
     {
       name: 'Medicine Dispenser',
       avatar: 'svg-1',
-      content: "Avaliable commands for this device",
+      content: "Hey ALEXA, ask RANIA...",
       buttons: [{
         buttonTitle: "Have I taken my medicine",
         alertTitle: "Yes.",
@@ -46,7 +46,7 @@ function UsersDataService($q) {
     {
       name: 'Home Security',
       avatar: 'svg-1',
-      content: "Avaliable commands for this device",
+      content: "Hey ALEXA, ask RANIA...",
       buttons: [{
         buttonTitle: "Lock Doors",
         alertTitle: "Okay!",
@@ -62,7 +62,7 @@ function UsersDataService($q) {
     {
       name: 'Robot Companion ',
       avatar: 'svg-1',
-      content: "Avaliable commands for this device",
+      content: "Hey ALEXA, ask RANIA...",
       buttons: [{
         buttonTitle: "Where is my robot companion?",
         alertTitle: "",
@@ -78,19 +78,19 @@ function UsersDataService($q) {
     {
       name: 'Thing Finder',
       avatar: 'svg-1',
-      content: "Avaliable commands for this device",
+      content: "Hey ALEXA, ask RANIA...",
       buttons: [{
         buttonTitle: "Find thing finder",
         alertTitle: "",
-        alertDescription: "The thing finder is <> in your home."
+        alertDescription: "The thing finder is <location> in your home."
       },],
     },
     {
       name: 'Smart Pantry',
       avatar: 'svg-1',
-      content: "Avaliable commands for this device",
+      content: "Hey ALEXA, ask RANIA...",
       buttons: [{
-        buttonTitle: "What's in my pantry.",
+        buttonTitle: "What's in my pantry?",
         alertTitle: "",
         alertDescription: "Contents of pantry: <>, <>, etc."
       },],

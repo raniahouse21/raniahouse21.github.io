@@ -36,7 +36,7 @@ class UserDetailsController  {
     function UserSheetController( $mdBottomSheet ) { 
       this.user = user;
       this.items = [
-        { name: 'Call 911'       , icon: 'phone'       , icon_url: 'assets/svg/phone.svg'}
+        { name: 'Call911'       , icon: 'phone'       , icon_url: 'assets/svg/phone.svg'}
       ];
       this.performAction = (action) => {
         $mdBottomSheet.hide(action);
@@ -54,7 +54,7 @@ class UserDetailsController  {
           .clickOutsideToClose(true)
           .title(button.alertTitle)
           .textContent(button.alertDescription)
-          //.ariaLabel('Alert Dialog Demo')
+          .ariaLabel('Alert Dialog Demo')
           .ok('Got it!')
           .targetEvent()
       );
