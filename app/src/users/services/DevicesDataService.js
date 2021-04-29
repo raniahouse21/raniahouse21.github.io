@@ -16,7 +16,7 @@
         message: "Medicine was taken. ",
     },
     {
-        timestamp: " 04-27-202111:03 AM",
+        timestamp: " 04-27-2021 11:03 AM",
         devicename: "Smart Pantry",
         patientname: "John Doe",
         priority: "High",
@@ -41,7 +41,7 @@
         devicename: "Medicine Dispenser",
         patientname: "John Doe",
         priority: "Low",
-        message: "Medicine needs taken..",
+        message: "Medicine needs taken.",
     },
     {
         timestamp: "04-27-2021 05:37 AM",

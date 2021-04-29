@@ -24,8 +24,6 @@ html, body {
 
 md-toolbar h1 {
   line-height: 20.45;
-  
-
 }
 
 
@@ -39,7 +37,7 @@ md-list .md-button {
 }
 
 md-list .md-button.selected {
-  color: #03a9f4;
+color: #085297   
 }
 
 md-sidenav md-list {

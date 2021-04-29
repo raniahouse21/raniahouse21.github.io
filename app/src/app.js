@@ -21,8 +21,8 @@ export default angular.module( 'starter-app', [ 'ngMaterial', Users.name, Device
       .icon("twitter", "./assets/svg/twitter.svg", 24)
       .icon("phone", "./assets/svg/phone.svg", 24);
 
-    $mdThemingProvider.theme('default')
-      .primaryPalette('brown')
-      .accentPalette('red');
+    //$mdThemingProvider.theme('default')
+     // .primaryPalette('brown')
+      //.accentPalette('red');
   })
   .controller('AppController', AppController);

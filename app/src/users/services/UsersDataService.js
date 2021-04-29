@@ -36,7 +36,11 @@ function UsersDataService($q) {
       buttons: [{
         buttonTitle: "Have I taken my medicine",
         alertTitle: "Yes.",
-        alertDescription: "Your drugname was taken at timestamp"
+        alertDescription: "Your medicine was taken at <timestamp>"
+      },{
+        buttonTitle: "Do I still need to take my medicine?",
+        alertTitle: "No.",
+        alertDescription: "Your medicine was taken at <timestamp>"
       }],
     },
     {
@@ -60,12 +64,12 @@ function UsersDataService($q) {
       avatar: 'svg-1',
       content: "Avaliable commands for this device",
       buttons: [{
-        buttonTitle: "Locate Robot Companion",
+        buttonTitle: "Where is my robot companion?",
         alertTitle: "",
         alertDescription: "Your robot companion is <location> in your home."
       },
       {
-        buttonTitle: "Summon Robot Companion",
+        buttonTitle: "Tel my robot to come to me.",
         alertTitle: "",
         alertDescription: "Your robot companion is on their way to you."
       },],
